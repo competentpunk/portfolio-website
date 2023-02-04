@@ -39,7 +39,9 @@ https://competentpunk.github.io/portfolio-website/
 
 ## Usage
 
-This page allows the user to navigated between three topics using the top right navigation buttons.
+This application is an introduction to me and my work.
+
+This page allows the user to navigate between four topics using the top right navigation buttons.
 
 
 
