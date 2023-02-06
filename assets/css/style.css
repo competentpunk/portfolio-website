@@ -159,20 +159,24 @@ section .card {
     border-width: 1px;
 }
 
+/* This is to wrap the three image below*/
 section .smphoto {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
 }
 
+/* Portfolio Hero image */
 .hero {
     display: flex;
     flex-direction: row;
-    max-width: 900px;
+    max-width: 868px;
+    align-self: center;
 }
 
+/* All Card Image Styles */
 .card img {
     display: flex;
     flex-wrap: wrap;
@@ -200,7 +204,7 @@ section .photo {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 2em;
+    padding: 1em;
 }
 
 .card .contact {
@@ -223,7 +227,7 @@ section .photo {
 /* Button Styling */
 
 section .copy button {
-    width: 200px;
+    width: 220px;
     height: 50px;
     margin-top: 40px;
     margin-left: 10px;
@@ -274,7 +278,10 @@ input[type=submit] {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 /* Footer Styling */
@@ -295,7 +302,7 @@ footer section {
 
 /* Media Queries for phone size */
 
-@media screen and (max-width: 956px) {
+@media screen and (max-width: 675px) {
     .copy .photo {
         margin: 1em 2em;
     }
