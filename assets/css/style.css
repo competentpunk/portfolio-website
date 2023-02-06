@@ -215,7 +215,7 @@ section .photo {
     -ms-flex-align: start;
 }
 
-/* Hover Styles Attempt */
+/* Hover Styles attempt */
 
 .photo figure img {
 	-webkit-filter: grayscale(100%);
