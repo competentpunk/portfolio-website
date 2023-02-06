@@ -6,15 +6,15 @@ https://competentpunk.github.io/portfolio-website/
 
 In order to best market my new coding skills, I am making a portfolio website.
 With this site I want visitors to be able to:
-    • Learn about me
-    • View my previous work: live site and code
-    • View my resume to cosinder my skills
-    • Contact me if interested
+- Learn about me
+- View my previous work: live site and code
+- View my resume to cosinder my skills
+- Contact me if interested
 
 Additional key elements:
-    • Accessibility
-    • Mobile first / Resizable
-    • Future maintaince
+- Accessibility
+- Mobile first / Resizable
+- Future maintaince
 
 ---
 

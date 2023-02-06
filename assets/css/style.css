@@ -83,7 +83,8 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
     text-align: left;
-    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-right: 80%;
 }
 
@@ -91,6 +92,7 @@ h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     text-align: left;
+    margin-bottom: 20px;
 }
 
 h4 {
@@ -116,6 +118,7 @@ main {
     margin-top: 1%;
     align-content: center;
 }
+
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -224,6 +227,7 @@ section .photo {
 	filter: grayscale(0);
 }
 
+
 /* Button Styling */
 
 section .copy button {
@@ -237,6 +241,27 @@ section .copy button {
     background-color: black;
     border-radius: 5px;
 }
+
+/* Contact Link Styling */
+
+section .contact{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+
+
+.link {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    padding: 30px;
+}
+
 
 /* Form Stylesheet */
 
