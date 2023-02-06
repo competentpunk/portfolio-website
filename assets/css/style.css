@@ -37,6 +37,7 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    color: #000;
 }
 
 nav {
@@ -105,7 +106,9 @@ main {
     flex-wrap: wrap;
     flex-direction: column;
     max-width: 1080px;
-    margin: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #fff;
     margin-top: 1%;
     align-content: center;
@@ -149,6 +152,13 @@ section .card {
     padding: 20px;
     border-style: solid;
     border-width: 1px;
+}
+section .smphoto {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
 }
 
 .hero {
