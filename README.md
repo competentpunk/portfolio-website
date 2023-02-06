@@ -38,8 +38,8 @@ This page allows the user to navigate between four topics using the top right na
 
 
 
-![Website home pagve screenshot](file/chain/goes/here.CHANGE)
-![Website home page screenshot](file/chain/goes/here.CHANGE)
+![Website home page screenshot](./assets/images/portfolio-example-1.png)
+![Website home page screenshot](./assets/images/portfolio-example-2.png)
 
 ## License
 
