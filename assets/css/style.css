@@ -120,6 +120,7 @@ main {
 }
 
 
+
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
@@ -258,55 +259,8 @@ section .contact{
 
 .link {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     padding: 30px;
-}
-
-
-/* Form Stylesheet */
-
-form {
-    Font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-/* Form Style inputs with type="text" */
-input[type=text],
-select,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical
-}
-
-/* Form Submit Button style */
-input[type=submit] {
-    border: none;
-    width: 200px;
-    height: 50px;
-    margin-top: 40px;
-    margin-left: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    color: white;
-    background-color: black;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* Form background styles*/
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 60px;
-    margin-right: 60px;
 }
 
 /* Footer Styling */
