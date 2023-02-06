@@ -1,6 +1,6 @@
 # <portfolio-website>
 ## Website:
-https://competentpunk.github.io/portfolio-website/
+https://competentpunk.github.io/competentpunk/portfolio-website.git
 
 ## Description
 
