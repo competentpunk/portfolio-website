@@ -233,7 +233,7 @@ section .photo {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 30%;
+    width: 33%;
 }
 
 /* Image Hover Attempt 2 */
