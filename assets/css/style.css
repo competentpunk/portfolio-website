@@ -48,6 +48,10 @@ nav {
     font-size: 20px;
 }
 
+body {
+    padding-bottom: 150px;
+}
+
 /* Link Styles */
 
 a:link {
@@ -62,7 +66,7 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-    color: #dbd9d6
+    color: #676767;
 }
 
 a:active {
@@ -85,7 +89,7 @@ h2 {
     text-align: left;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 80%;
+    /* margin-right: 80%; */
 }
 
 h3 {
@@ -138,6 +142,10 @@ section .box {
     height: 85px;
 }
 
+.whiteicon {
+    scale: 65%;
+}
+
 section.about {
     display: flex;
     flex-wrap: wrap;
@@ -166,7 +174,7 @@ section .card {
 /* This is to wrap the three image below*/
 section .smphoto {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
@@ -186,7 +194,7 @@ section .smphoto {
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    min-width: 250px;
+    min-width: 200px;
     position: relative;
     cursor: pointer;
 }
@@ -208,26 +216,56 @@ section .photo {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 1em;
+    margin: 10px;
+}
+
+.smphoto {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
 }
 
 .card .contact {
     -ms-flex-align: start;
 }
 
-/* Hover Styles attempt */
-
-.photo figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.photo figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
+.photobox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
 }
 
+/* Image Hover Attempt 2 */
+
+
+
+
+/* Hover iamge attempt 1*/
+
+/* .img {
+    position: relative;
+    height: 200px;
+    width: 257px;
+  }
+  
+  .img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .img:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+  } */
 
 /* Button Styling */
 
@@ -245,9 +283,9 @@ section .copy button {
 
 /* Contact Link Styling */
 
-section .contact{
+section .contact {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
@@ -266,16 +304,24 @@ section .contact{
 /* Footer Styling */
 
 footer {
+    width: 100%;
     text-align: start;
     background-color: #000;
-    padding: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
 }
 
 footer section {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+}
+
+.signature {
+    align-items: center;
 }
 
 
@@ -294,3 +340,4 @@ footer section {
         min-width: 75px;
     }
 }
+
